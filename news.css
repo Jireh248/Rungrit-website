@@ -1,13 +1,13 @@
 
 body{
-    background-color: beige;
+    background-color: #f7b517;
 }
 
 .welcome{
     font-family: unset;
     text-align: center;
     font-size: 60px;
-    background-color: wheat;
+    background-color: white;
     border-radius: 30px;
 }
 .info{
