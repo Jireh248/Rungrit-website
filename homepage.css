@@ -1,0 +1,109 @@
+.run{
+    font-size: 70px;
+    background-color: wheat;
+    text-shadow: white 3px 3px;
+    font-family:unset;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+body{
+    background-color: beige;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: scroll;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration:dotted;
+    color: white;
+}
+li a:hover{
+    background-color: orange;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 60px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.runnerlogo{
+    border-radius: 70px;
+    width: 800px;
+    display: block;
+    margin: auto;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -90%;
+    position: absolute;
+    opacity: 90%;
+}
+.brand{
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 450px;
+    left: 150px;
+    right: 150px;
+    font-family: unset;
+    font-size: 50px;
+}
+.even{
+    height: 100px;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    top: 750px;
+    display: block;
+    position: absolute;
+    border-radius: 60px;
+}
+.eventxt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 650px;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: unset;
+    text-align: center;
+}
+.soon{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: unset;
+    font-size: 80px;
+    border-radius: 20px;
+    height: 120px;
+    opacity: 70%;
+}
+.soon:hover{
+    background-color: gray;
+}
+.runman{
+    position: absolute;
+    top: 200px;
+    height: 700px;
+}
+
+
