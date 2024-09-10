@@ -39,4 +39,7 @@ ul{
     overflow: hidden;
     background-color: black;
     border-radius: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
