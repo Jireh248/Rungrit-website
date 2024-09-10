@@ -1,5 +1,6 @@
 li{
     float: left;
+    font-size: 40px;
 }
 li a{
     display: block;
