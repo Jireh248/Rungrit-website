@@ -37,6 +37,9 @@ ul{
     overflow: hidden;
     background-color: black;
     border-radius: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .logo{
     height: 80px;
