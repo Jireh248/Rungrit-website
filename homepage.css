@@ -6,7 +6,7 @@
     text-align: center;
     margin: auto;
     border-radius: 50px;
-    margin-top: 10px;
+    margin-top: 80px;
 }
 body{
     background-color: #f7b517;
@@ -39,11 +39,12 @@ ul{
     border-radius: 60px;
 }
 .logo{
-    height: 90px;
+    height: 80px;
     width: 90px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: -100px;
 }
 .runnerlogo{
     border-radius: 70px;
@@ -109,4 +110,3 @@ ul{
     top: 200px;
     height: 700px;
 }
-
