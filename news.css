@@ -1,6 +1,10 @@
-
 body{
-    background-color: #f7b517;
+    background-image: url(mountain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: scroll;
 }
 
 .welcome{
@@ -21,7 +25,8 @@ body{
 }
 li{
     float: left;
-    font-size: 40px;
+    font-size: 20px;
+    border-right: 1px solid white;
 }
 li a{
     display: block;
@@ -43,4 +48,7 @@ ul{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+.active{
+    background-color: orange;
 }
