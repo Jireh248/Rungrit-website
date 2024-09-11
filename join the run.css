@@ -6,6 +6,7 @@ body{
     background-position-y: center;
     background-attachment: scroll;
 }
+
 li{
     float: left;
     font-size: 20px;
