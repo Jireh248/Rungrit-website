@@ -1,11 +1,12 @@
+
 body{
-    background-image: url(mountain.webp);
-    background-repeat: no-repeat;
+    background: url(mountain.webp) no-repeat center center fixed;
     background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
+
 .welcome{
     font-family: unset;
     text-align: center;
