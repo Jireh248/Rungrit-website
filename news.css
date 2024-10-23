@@ -52,3 +52,23 @@ ul{
 .active{
     background-color: orange;
 }
+
+.pictures{
+   text-align: center;
+}
+    
+.pic1{
+    height: 500px;
+}
+.pic2{
+    height: 500px;
+}
+.pic3{
+    height: 500px;
+}
+.pic4{
+    height: 500px;
+}
+.pic5{
+    height: 500px;
+}
