@@ -58,12 +58,16 @@ ul{
     padding-top: 70px;
     padding-bottom: 70px;
    border-radius: 60px;
+   transition: 1s;
 }
     
 .pic1{
     height: 500px;
     border-radius: 70px;
     margin-right: 50px;
+}
+.pictures:hover{
+    background-color: black;
 }
 
 .pic3{
