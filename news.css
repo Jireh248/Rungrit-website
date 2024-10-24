@@ -54,20 +54,29 @@ ul{
 
 .pictures{
    text-align: center;
+   background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+   border-radius: 60px;
 }
     
 .pic1{
     height: 500px;
+    border-radius: 70px;
+    margin-right: 50px;
 }
-.pic2{
-    height: 500px;
-}
+
 .pic3{
-    height: 500px;
+    height: 400px;
+    border-radius: 70px;
+    margin-right: 60px;
 }
 .pic4{
     height: 500px;
+    border-radius: 70px;
 }
 .pic5{
     height: 500px;
+    border-radius: 70px;
+    margin-left: 30px;
 }
