@@ -5,7 +5,6 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
-
 .welcome{
     font-family: unset;
     text-align: center;
@@ -51,16 +50,21 @@ ul{
 .active{
     background-color: orange;
 }
-
 .pictures{
    text-align: center;
    background-color: white;
     padding-top: 70px;
     padding-bottom: 70px;
-   border-radius: 60px;
+   border-radius: 80px;
    transition: 1s;
+}   
+.event{
+    text-align: center;
+    padding-bottom: 100px;
 }
-    
+.fallyall{
+    border-radius: 100px;
+}
 .pic1{
     height: 500px;
     border-radius: 70px;
@@ -69,7 +73,6 @@ ul{
 .pictures:hover{
     background-color: black;
 }
-
 .pic3{
     height: 400px;
     border-radius: 70px;
