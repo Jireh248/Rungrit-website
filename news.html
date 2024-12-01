@@ -27,6 +27,9 @@
         </button>
         </a>
 
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
         <div class="dec1">
             
         <video width="920" height="440" autoplay muted class="vid">
@@ -41,6 +44,19 @@
                 <img src="pic 3.JPG" alt="" class="pic3">
                 <img src="pic 5.JPG" alt="" class="pic5">
             </div>
+
+        <script>
+                let vid = document.getElementById("myvideo"); 
+
+                function playVid() { 
+                vid.play(); 
+                } 
+
+                function pauseVid() { 
+                vid.pause(); 
+                } 
+            
+            </script>
         
     </body>
 </html>
