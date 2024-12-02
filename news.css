@@ -1,3 +1,4 @@
+
 body{
     background: url(mountain.webp) no-repeat center center fixed;
     background-size: cover;
@@ -88,7 +89,6 @@ ul{
     border-radius: 70px;
     margin-left: 30px;
 }
-
 .link{
     background-color: red;
     border: none;
@@ -116,8 +116,7 @@ ul{
 }
 .vid-butt{
     text-align: center;
-}
-
+    padding-bottom: 10px;
 }
 .butt{
     width: 400px;
@@ -128,4 +127,3 @@ ul{
     font-size: 20px;
     border-radius: 20px;
 }
-
