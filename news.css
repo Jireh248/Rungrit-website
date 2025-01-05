@@ -110,6 +110,7 @@ ul{
     background-color: white;
     border-radius: 20px;
     margin-bottom: 100px;
+    max-width: 90%;
 }
 .dec1{
     text-align: center;
