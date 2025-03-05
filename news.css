@@ -128,8 +128,41 @@ ul{
     font-size: 20px;
     border-radius: 20px;
 }
-
-.sunday{
+.Domino{
+    height: 500px;
+    border-radius: 50px;
+    padding-bottom: 40px;
+}
+.duelnight{
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.Register{
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+.reg-container{
     text-align: center;
     padding-bottom: 40px;
+}
+
+a:link{
+    text-decoration: none;
+}
+.duel-night-vid{
+    text-align: center;
+}
+.dom-vid{
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
 }
