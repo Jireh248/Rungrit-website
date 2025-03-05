@@ -166,3 +166,8 @@ a:link{
     width: 400px;
     margin-bottom: 30px;
 }
+img { 
+    max-width: 100%; 
+    height: auto; 
+    width: auto;
+}
