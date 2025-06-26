@@ -58,6 +58,7 @@ and (min-width:160.9px){
 
     .navbar a{
         font-size: 18px;
+        letter-spacing: 1px;
     }
     .logo{
         text-align: center;
