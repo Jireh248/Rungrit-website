@@ -32,7 +32,7 @@ body, html{
     text-shadow: orange 1px 1px 1px;
 }
 .landing-pic{
-    height: 600px;
+    height: 500px;
     width: 500px;
     position: absolute;
     float: right;
@@ -54,11 +54,12 @@ body, html{
     text-shadow: white 5px 5px 5px;
 }
 @media screen and (max-width:1080px) 
-and (min-width:160.9px){
+and (min-width:100px){
 
     .navbar a{
         font-size: 18px;
         letter-spacing: 1px;
+
     }
     .logo{
         text-align: center;
@@ -73,7 +74,7 @@ and (min-width:160.9px){
     .landing-pic{
         height: 450px;
         width: 420px;
-        top: 150px;
+        top: 160px;
         right: auto;
         left: auto;
         margin-top: 600px;
@@ -85,15 +86,15 @@ and (min-width:160.9px){
 }
 @media screen and (max-width:1200px) and (min-width:160px){
     .welcome{
-        font-size: 92px;
+        font-size: 80px;
         margin: auto;
         text-align: center;
         padding: 10px;
         margin-top: -50px;
     }
     .landing-pic{
-        height: 500px;
-        width: 500px;
+        height: 400px;
+        width: 400px;
         margin-top: 450px;
     }
 }
