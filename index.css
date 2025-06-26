@@ -1,127 +1,109 @@
-.run{
-    font-size: 20px;
-    text-shadow: white 1px 3px;
-    font-family: unset;
-    text-align: center;
-    margin: 0;
+body, html{
+    background-color: orange;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar a{
+    float: right;
+    letter-spacing: 3px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: brown;
+    transition: all .2s ease-in-out;
     border-radius: 50px;
-    margin-top: 100px;
-    margin-bottom: 500px;
 }
-body{
-    background: url(mountain.webp) no-repeat center center fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-}
-.active{
-    background-color: orange;
-}
-li{
-    float: left;
-    font-size: 20px;
-    border-right: 1px solid white;
-}
-li a{
-    display: block;
-    text-align: center;
-    padding: 26px;
-    text-decoration:dotted;
-    color: white;
-}
-li a:hover{
-    background-color: orange;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    border-radius: 60px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+.navbar a:hover{
+    transform: scale(1.1);
 }
 .logo{
-    height: 90px;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: -110px;
+    background-color: yellow;
+    color: brown;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    text-shadow: orange 1px 1px 1px;
 }
-.runnerlogo{
-    border-radius: 70px;
-    width: 800px;
-    display: block;
-    margin: auto;
-    left: -100%;
-    right: -100%;
-    top: -90%;
-    bottom: -90%;
+.landing-pic{
+    height: 600px;
+    width: 500px;
     position: absolute;
-    opacity: 90%;
-}
-.brand{
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    color: white;
-    top: 450px;
-    left: 150px;
-    right: 150px;
-    font-family: unset;
-    font-size: 50px;
-}
-.even{
-    height: 100px;
-    width: 98%;
-    margin-right: auto;
-    margin-left: auto;
-    margin: auto;
-    top: 750px;
-    display: block;
-    position: absolute;
-    border-radius: 60px;
-}
-.eventxt{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 610px;
-    position: relative;
-    color: white;
-    font-size: 30px;
-    font-family: unset;
-    text-align: center;
-}
-.soon{
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: unset;
-    font-size: 80px;
-    border-radius: 20px;
-    height: 120px;
-    opacity: 70%;
-    margin-top: 500px;
-}
-.soon:hover{
-    background-color: gray;
-}
-.runman{
-    position: absolute;
-    top: 200px;
-    height: 700px;
-}
-.logo2{
-    height: 500px;
-    margin-top: -400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    float: right;
+    bottom: 90px;
+    right: 20px;
+    border-radius: 10px;
+    z-index: 1;
 }
 
+.welcome{
+    color: brown;
+    padding-top: 120px;
+    font-size: 130px;
+    border-radius: 10px;
+    padding-right: 550px;
+    margin-right: 600px;
+    margin-top: -80px;
+    margin-bottom: auto;
+    text-shadow: white 5px 5px 5px;
+}
+@media screen and (max-width:1080px) 
+and (min-width:160.9px){
 
+    .navbar a{
+        font-size: 18px;
+    }
+    .logo{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 40px;
+    }
+    .welcome{
+        padding-right: 300px;
+        font-size: 100px;
+        bottom: 300px;
+    }
+    .landing-pic{
+        height: 450px;
+        width: 420px;
+        top: 150px;
+        right: auto;
+        left: auto;
+        margin-top: 600px;
+    }
+    .pic-container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width:1200px) and (min-width:160px){
+    .welcome{
+        font-size: 92px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        margin-top: -50px;
+    }
+    .landing-pic{
+        height: 500px;
+        width: 500px;
+        margin-top: 450px;
+    }
+}
+@media screen and (max-width:1000px)and (min-width: 160px){
+    .landing-pic{
+        margin-top: 250px;
+    }
+}
+@media screen and (min-width:100px){
+    .landing-pic{
+        margin-top: 450px;
+    }
+}
+}
