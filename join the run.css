@@ -1,42 +1,74 @@
-
-body{
-    background: url(mountain.webp) no-repeat center center fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-}
-li{
-    float: left;
-    font-size: 20px;
-    border-right: 1px solid black;
-}
-li a{
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration:dotted;
-    color: black;
-}
-li a:hover{
+body, html{
     background-color: orange;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    border-radius: 60px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+.navbar a{
+    float: right;
+    letter-spacing: 3px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: brown;
+    transition: all .2s ease-in-out;
+    border-radius: 50px;
 }
+.logo{
+    background-color: yellow;
+    color: brown;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    text-shadow: orange 1px 1px 1px;
+}
+
 .doc{
     margin-right: auto;
     margin-left: auto;
-    display:block;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border-radius: 3rem;
+    margin: 30px;
 }
-.active{
-    background-color: orange;
-}
+
+@media screen and (max-width:1080px) 
+and (min-width:160.9px){
+
+    .navbar a{
+        font-size: 18px;
+        letter-spacing: -1px;
+    }
+    .logo{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 40px;
+    }
+
+    .about{
+        background-color: white;
+        border-radius: 3%;
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 3.0rem;
+        padding-top: 3.0rem;
+        opacity: 90%;
+    }
+    .trail-pic{
+        height: 20.8rem;
+        width: 24rem;
+        margin: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.5rem;
+    }
+} 
