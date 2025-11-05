@@ -47,20 +47,62 @@ body, html{
     top: 10rem; 
 }
 .events-pics{
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
+    position: relative;
+    height: 233px;
+    margin-bottom: 30px;
+    display: flex;
+    width: fit-content;
+    gap: 50px;
+    margin-top: 50px;
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.kwanza-run-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.kwanza-but{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px black;
+}
+
+.events-pics img {
+  margin: 0px 0px;
+  box-shadow: 2px 2px 8px #8a8a8a;
+}
+.events-pics {
+  animation: bannermove 50s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 div.events-pics img{
     height: 300px;
-}
-.photo-text{
-    font-family: 'Gill Sans', 'Gill Sans MT',
-     Calibri, 'Trebuchet MS', sans-serif;
-     text-align: center;
-     font-size: 30px;
 }
 @media screen and (max-width:1080px) 
 and (min-width:100px){
