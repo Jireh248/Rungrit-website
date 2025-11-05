@@ -46,19 +46,20 @@ body, html{
     text-shadow: black 3px 3px 5px;
     top: 10rem; 
 }
-.events-pics{
-    position: relative;
-    height: 233px;
-    margin-bottom: 30px;
-    display: flex;
-    width: fit-content;
-    gap: 50px;
-    margin-top: 50px;
-    background-color: white;
-    padding-bottom: 5rem;
-    padding-top: 1rem;
-    white-space: nowrap;
-    overflow: auto;
+
+.events-pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.events-pics img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .kwanza-run-pic{
@@ -83,44 +84,4 @@ body, html{
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 2px 2px 8px black;
-}
-
-.events-pics img {
-  margin: 0px 0px;
-  box-shadow: 2px 2px 8px #8a8a8a;
-}
-.events-pics {
-  animation: bannermove 50s linear infinite;
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-div.events-pics img{
-    height: 300px;
-}
-@media screen and (max-width:1080px) 
-and (min-width:100px){
-
-    .navbar a{
-        font-size: 18px;
-        letter-spacing: -1px;
-    }
-    .logo{
-        text-align: center;
-        padding-top: 60px;
-        font-size: 40px;
-    }
-    .detroit-text{
-        font-size: 2rem;
-        top: 19rem;
-    }
-    .detroit-pic{
-        width: 100%;
-    }
 }
