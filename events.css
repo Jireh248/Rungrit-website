@@ -76,12 +76,30 @@ body, html{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: brown;
-    color: white;
+    background-color: yellow;
+    color: black;
     font-size: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 2px 2px 8px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px; /* Adjust as needed */
+}
+
+.video-center video {
+    max-width: 80vw;
+    max-height: 60vh;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
