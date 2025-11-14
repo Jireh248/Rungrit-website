@@ -28,84 +28,77 @@ body, html{
     font-size: 25px;
     border-radius: 8px;
     padding-bottom: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     text-shadow: orange 1px 1px 1px;
 }
-.landing-pic{
-    height: 500px;
-    width: 500px;
+.detroit-pic{
+    height: 15rem;
+    width: 100%;
+    margin: 0;
+    border-radius: 1.1rem;
+}
+.detroit-text{
     position: absolute;
-    float: right;
-    bottom: 90px;
-    right: 20px;
-    border-radius: 10px;
-    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-shadow: black 3px 3px 5px;
+    top: 10rem; 
 }
 
-.welcome{
-    color: brown;
-    padding-top: 120px;
-    font-size: 130px;
-    border-radius: 10px;
-    padding-right: 550px;
-    margin-right: 600px;
-    margin-top: -80px;
-    margin-bottom: auto;
-    text-shadow: white 5px 5px 5px;
+.events-pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 32px 0;
 }
-@media screen and (max-width:1080px) 
-and (min-width:100px){
 
-    .navbar a{
-        font-size: 18px;
-        letter-spacing: -1px;
+.events-pics img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-    }
-    .logo{
-        text-align: center;
-        padding-top: 60px;
-        font-size: 40px;
-    }
-    .welcome{
-        padding-right: 300px;
-        font-size: 90px;
-        bottom: 300px;
-    }
-    .landing-pic{
-        height: 450px;
-        width: 420px;
-        top: 160px;
-        right: auto;
-        left: auto;
-        margin-top: 600px;
-    }
-    .pic-container{
-    text-align: center;
-    justify-content: center;
+.kwanza-run-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.kwanza-but{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video-center {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media screen and (max-width:1200px) and (min-width:160px){
-    .welcome{
-        font-size: 75px;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-        margin-top: -50px;
-    }
-    .landing-pic{
-        height: 400px;
-        width: 400px;
-        margin-top: 450px;
-    }
-}
-@media screen and (max-width:1000px)and (min-width: 160px){
-    .landing-pic{
-        margin-top: 250px;
-    }
-}
-@media screen and (min-width:100px){
-    .landing-pic{
-        margin-top: 350px;
-    }
-}
+
+.video-center video {
+    width: 80%;
+    padding-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
